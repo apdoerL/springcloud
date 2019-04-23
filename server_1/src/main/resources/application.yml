@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: service-one
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/
+
