@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-high-available
+server:
+  port: 10086
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+      defaultZone: http://peer2:10010/eureka/
